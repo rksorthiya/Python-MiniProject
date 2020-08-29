@@ -46,7 +46,7 @@ class Employee:
             f.close()
                   
 print("1. Add Emp")
-print("2. Display Emp")
+print("2. Display Emp ")
 print("3. Add Notes")
 choice = int(input("Enter your Choice:"))
 if choice == 1:
