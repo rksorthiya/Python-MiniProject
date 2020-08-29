@@ -1,4 +1,5 @@
 import re
+
 class Validation :
 
     def Validationemail(self,email):
