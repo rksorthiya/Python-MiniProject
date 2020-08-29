@@ -29,7 +29,7 @@ class myconnect:
             r=self.conn.execute("select * from emp where id = '{}'".format(id))
             result=(r.fetchall())
             for i in result:
-                  print("==================================================")
+                  print("===================================================")
                   print(i[0])
                   print("Name : "+i[1])
                   print("Email : "+i[2])
@@ -37,7 +37,7 @@ class myconnect:
                   print("Emp type : "+i[4])
                   print("Experience : ",i[5])
                   print("Salary : " ,i[6])
-                  print("==================================================")
+                  print("===================================================")
 
 
             
